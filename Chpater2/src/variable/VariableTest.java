@@ -4,7 +4,8 @@ public class VariableTest {
 
 	public static void main(String[] args) {
 		
-		int age; // 주로 변수 선언 시 노란줄이 나온다. 
+		int age;
+		// 주로 변수 선언 시 노란줄이 나온다. 
 				 //변수를 사용 안했을 시
 		
 		age = 30; // 값 대입  30이 age에 들어간다.
