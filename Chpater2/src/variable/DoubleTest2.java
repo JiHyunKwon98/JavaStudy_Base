@@ -8,7 +8,7 @@ public class DoubleTest2 {
 		
 		for(int i=0; i<10000; i++) {
 			
-			dNum = dNum + 0.1;
+			dNum = dNum + 0.1; //약간의 오차가 발생( 부동소수점 오차 )
 		}
 		
 		System.out.println(dNum);
