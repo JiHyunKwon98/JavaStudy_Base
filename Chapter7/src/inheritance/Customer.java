@@ -1,19 +1,19 @@
 package inheritance;
-//상속을 사용하여 고객관리 프로그램 구현 
-// 고객의 등급에 따라 차별화된 서비스를 제공할 수 있다.
-// 고객의 등급에 따라 할인률, 적립금이 다르게 적용된다.
+/*상속을 사용하여 고객관리 프로그램 구현 
+ *  고객의 등급에 따라 차별화된 서비스를 제공할 수 있다.
+ *  고객의 등급에 따라 할인률, 적립금이 다르게 적용된다.*/ 
+
 public class Customer {
 
-	private int customerID; //고객 아이디
-	private String customerName; //고객 이름
-	private String customerGrade; //고객 등급 (기본 생서자에서 지정되는 기본 등급은 SILVER) 
+	protected int customerID; //고객 아이디
+	protected String customerName; //고객 이름
+	protected String customerGrade; //고객 등급 (기본 생서자에서 지정되는 기본 등급은 SILVER) 
 	int bonusPoint; //고객 보너스 포인트 (고객이 제품을 구매하는 경우 누적되는 보너스 포인트 )
 	double bonusRatio; // 보너스 포인트 적립 비용 (고객이 제품을 구매할 때 구매 금액의 일정 비율이 보너스
 					   // 트로 적립. 이 때 계산되는 적립 비용
 					   // 기본 생성자에서 지정되는 적립 비율은 1%. 
 				       //즉 10,000원 짜리를 사면 100원이 적립
-	
-	
+
 	public Customer() { // 기본 생성자 
 		customerGrade = "SILVER"; //멤버변수 초기화 
 		bonusRatio = 0.01; 
