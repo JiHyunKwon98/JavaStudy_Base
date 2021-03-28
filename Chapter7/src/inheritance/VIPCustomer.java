@@ -13,10 +13,25 @@ public class VIPCustomer extends Customer {
 	double salesRatio;
 	private int agentID;
 	
+	/*
 	public VIPCustomer() {
+		
+		super(); //상위 클래스의 참조값을 갖고 있음  상위클래스의 기본생성자 호출
 		customerGrade = "VIP";
 		bonusRatio = 0.05;
 		salesRatio = 0.01;
+		
+		System.out.println("VIPCustomer() 생성자 호출");
+	}*/
+	
+	public VIPCustomer(int customerID, String customerName) {
+		
+		super(customerID, customerName); 
+		customerGrade = "VIP";
+		bonusRatio = 0.05;
+		salesRatio = 0.01;
+		
+		System.out.println("VIPCustomer() 생성자 호출");
 	}
 	
 }

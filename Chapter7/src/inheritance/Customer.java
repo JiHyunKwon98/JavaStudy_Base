@@ -13,10 +13,22 @@ public class Customer {
 					   // 트로 적립. 이 때 계산되는 적립 비용
 					   // 기본 생성자에서 지정되는 적립 비율은 1%. 
 				       //즉 10,000원 짜리를 사면 100원이 적립
-
+/*
 	public Customer() { // 기본 생성자 
 		customerGrade = "SILVER"; //멤버변수 초기화 
 		bonusRatio = 0.01; 
+		
+		System.out.println("Customer() 생성자 호출");
+	}
+*/	
+	public Customer(int customerID, String customerName) {
+		this.customerID = customerID;
+		this.customerName = customerName;
+		customerGrade = "SILVER"; //멤버변수 초기화 
+		bonusRatio = 0.01; 
+		
+		System.out.println("Customer(int, String) 생성자 호출");
+
 	}
 	
 	public int calcPrice(int price) { //가격 계산하는 메서드 
