@@ -27,7 +27,7 @@ public class Customer {
 		customerGrade = "SILVER"; //멤버변수 초기화 
 		bonusRatio = 0.01; 
 		
-		System.out.println("Customer(int, String) 생성자 호출");
+		//System.out.println("Customer(int, String) 생성자 호출");
 
 	}
 	
