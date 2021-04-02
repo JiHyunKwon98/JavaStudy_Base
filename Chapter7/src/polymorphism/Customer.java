@@ -3,6 +3,7 @@ package polymorphism;
  *  고객의 등급에 따라 차별화된 서비스를 제공할 수 있다.
  *  고객의 등급에 따라 할인률, 적립금이 다르게 적용된다.*/ 
 
+//Customer 하나로 관리 
 public class Customer {
 
 	protected int customerID; //고객 아이디
