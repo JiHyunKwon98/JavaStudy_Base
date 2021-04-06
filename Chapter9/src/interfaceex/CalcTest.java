@@ -5,7 +5,7 @@ public class CalcTest {
 	public static void main(String[] args) {
 	
 		CompleteCalc calc = new CompleteCalc();
-		// Calc , Calculator도 가능하긴 하다.
+		// Calc, Calculator도 가능하긴 하다.
 		int n1 = 10;
 		int n2 = 2;
 		
