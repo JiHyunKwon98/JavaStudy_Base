@@ -11,4 +11,8 @@ public interface Calc {
 	
 	//반환해주는 일을 하기 위해 선언해줌 
 	
+	default void description() {
+		System.out.println("점수 계산기를 구현합니다.");
+	}
+	
 }
