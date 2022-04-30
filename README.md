@@ -1,4 +1,4 @@
 ### Java 문법
 
-- Java 문법 공부 repository 
+- Java 문법 Study repo
 - Basic
